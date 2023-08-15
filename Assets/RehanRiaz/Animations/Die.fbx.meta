@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: d1f8046f85f21df469aa864af4f7a50d
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Die
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Terror:Terror:Terrorist_FreeChar_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Terror:Terror:Terrorist_FreeChar_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Die(Clone)
+      parentName: 
+      position: {x: -0.10717384, y: -0.14037994, z: -0.09254313}
+      rotation: {x: 0.073900394, y: 0.4560222, z: -0.030982736, w: 0.8863535}
+      scale: {x: 4.8042, y: 4.8042, z: 4.8042}
+    - name: Terror:Terror:Terrorist_FreeChar_Hips
+      parentName: Die(Clone)
+      position: {x: 0.00026446444, y: 0.19677967, z: -0.0033756827}
+      rotation: {x: -0.08849125, y: -0.4677676, z: 0.013890463, w: 0.8793008}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftUpLeg
+      parentName: Terror:Terror:Terrorist_FreeChar_Hips
+      position: {x: -0.023554001, y: -0.011026, z: 0}
+      rotation: {x: -0.10381235, y: -0.4191623, z: -0.011324431, w: 0.90188575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftLeg
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftUpLeg
+      position: {x: -0.008414, y: -0.078469, z: 0.000692}
+      rotation: {x: 0.23583013, y: 0.12883127, z: -0.006214116, w: 0.9631969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftFoot
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftLeg
+      position: {x: -0.007508, y: -0.070020996, z: -0.012794999}
+      rotation: {x: -0.1858324, y: 0.15863416, z: 0.00526022, w: 0.96967727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftToeBase
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftFoot
+      position: {x: -0.002763, y: -0.013739, z: 0.031085998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightUpLeg
+      parentName: Terror:Terror:Terrorist_FreeChar_Hips
+      position: {x: 0.023554001, y: -0.011026, z: 0}
+      rotation: {x: -0.07929443, y: 0.25747886, z: 0.06458863, w: 0.9608566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightLeg
+      parentName: Terror:Terror:Terrorist_FreeChar_RightUpLeg
+      position: {x: 0.008414, y: -0.078469, z: 0.000692}
+      rotation: {x: 0.2244302, y: 0.020685755, z: 0.018876387, w: 0.97408766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightFoot
+      parentName: Terror:Terror:Terrorist_FreeChar_RightLeg
+      position: {x: 0.007508, y: -0.070020996, z: -0.012794999}
+      rotation: {x: -0.18079862, y: -0.09833889, z: -0.112564504, w: 0.972096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightToeBase
+      parentName: Terror:Terror:Terrorist_FreeChar_RightFoot
+      position: {x: 0.0015889999, y: -0.013739, z: 0.031168}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_Spine
+      parentName: Terror:Terror:Terrorist_FreeChar_Hips
+      position: {x: -0, y: 0.012309999, z: 0}
+      rotation: {x: 0.063756794, y: -0.032498844, z: 0.026189819, w: 0.9970923}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_Spine1
+      parentName: Terror:Terror:Terrorist_FreeChar_Spine
+      position: {x: -0, y: 0.033411, z: 0}
+      rotation: {x: 0.010800663, y: -0.012179872, z: -0.020416833, w: 0.99965906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_Spine2
+      parentName: Terror:Terror:Terrorist_FreeChar_Spine1
+      position: {x: -0, y: 0.033411, z: 0}
+      rotation: {x: 0.0019295387, y: -0.011317386, z: -0.009180616, w: 0.999892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftShoulder
+      parentName: Terror:Terror:Terrorist_FreeChar_Spine2
+      position: {x: -0.012309999, y: 0.021285998, z: -0.006274}
+      rotation: {x: -0.023039611, y: 0.085869655, z: -0.026813697, w: 0.99567896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftArm
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftShoulder
+      position: {x: -0.018829, y: 0, z: 0}
+      rotation: {x: 0.024648385, y: -0.0044543217, z: -0.26022053, w: 0.9652243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftForeArm
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftArm
+      position: {x: -0.043548997, y: -0.032293998, z: 0}
+      rotation: {x: -0.18232714, y: -0.2807046, z: 0.046465192, w: 0.941171}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHand
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftForeArm
+      position: {x: -0.037915997, y: -0.025113, z: 0.012452}
+      rotation: {x: 0.045455832, y: -0.024016887, z: 0.09998584, w: 0.9936598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHandThumb1
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftHand
+      position: {x: -0.0042169997, y: -0.00283, z: 0.0074229995}
+      rotation: {x: 0.15720579, y: 0.018862844, z: 0.10402204, w: 0.9818911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHandThumb2
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftHandThumb1
+      position: {x: -0.002317, y: -0.001873, z: 0.006052}
+      rotation: {x: -0.0014652599, y: -0.030006919, z: -0.13963807, w: 0.9897468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHandThumb3
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftHandThumb2
+      position: {x: -0.001218, y: -0.001913, z: 0.004282}
+      rotation: {x: 0.16268519, y: 0.15752682, z: -0.40482825, w: 0.885908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHandThumb4
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftHandThumb3
+      position: {x: -0.001034, y: -0.0015889999, z: 0.004289}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle1
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftHand
+      position: {x: -0.011814999, y: -0.005329, z: 0.0048849997}
+      rotation: {x: -0.05985103, y: -0.06822368, z: -0.034727607, w: 0.9952675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle2
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle1
+      position: {x: -0.0075459997, y: -0.006001, z: 0.004278}
+      rotation: {x: 0.022220122, y: -0.035344116, z: -0.07788058, w: 0.99608827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle3
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle2
+      position: {x: -0.004926, y: -0.005716, z: 0.004113}
+      rotation: {x: -0.04123716, y: 0.0021413143, z: -0.072924174, w: 0.99648225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle4
+      parentName: Terror:Terror:Terrorist_FreeChar_LeftHandMiddle3
+      position: {x: -0.002504, y: -0.004443, z: 0.0023029998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightShoulder
+      parentName: Terror:Terror:Terrorist_FreeChar_Spine2
+      position: {x: 0.012309999, y: 0.021285998, z: -0.006274}
+      rotation: {x: -0.057371628, y: 0.16963233, z: 0.025034843, w: 0.98351747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightArm
+      parentName: Terror:Terror:Terrorist_FreeChar_RightShoulder
+      position: {x: 0.018829, y: 0, z: 0}
+      rotation: {x: -0.04972412, y: -0.08807731, z: 0.28572914, w: 0.9529579}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightForeArm
+      parentName: Terror:Terror:Terrorist_FreeChar_RightArm
+      position: {x: 0.044255, y: -0.034516998, z: 0}
+      rotation: {x: 0.042409416, y: 0.123684116, z: -0.02455115, w: 0.991111}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHand
+      parentName: Terror:Terror:Terrorist_FreeChar_RightForeArm
+      position: {x: 0.032153, y: -0.021461999, z: 0.011194}
+      rotation: {x: -0.019304551, y: -0.1457493, z: -0.13450702, w: 0.97994506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHandThumb1
+      parentName: Terror:Terror:Terrorist_FreeChar_RightHand
+      position: {x: 0.001394, y: -0.001052, z: 0.007842}
+      rotation: {x: -0.047628727, y: -0.015016135, z: -0.08645062, w: 0.99500364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHandThumb2
+      parentName: Terror:Terror:Terrorist_FreeChar_RightHandThumb1
+      position: {x: 0.002157, y: -0.002055, z: 0.006052}
+      rotation: {x: -0.040842745, y: -0.0017585668, z: 0.18934558, w: 0.98105913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHandThumb3
+      parentName: Terror:Terror:Terrorist_FreeChar_RightHandThumb2
+      position: {x: 0.0010589999, y: -0.002005, z: 0.004282}
+      rotation: {x: -0.0018589564, y: 0.09697191, z: -0.1080562, w: 0.9894023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHandThumb4
+      parentName: Terror:Terror:Terrorist_FreeChar_RightHandThumb3
+      position: {x: 0.000902, y: -0.001668, z: 0.004289}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHandMiddle1
+      parentName: Terror:Terror:Terrorist_FreeChar_RightHand
+      position: {x: 0.007363, y: -0.003328, z: 0.004427}
+      rotation: {x: -0.06504105, y: -0.007390377, z: 0.07523623, w: 0.9950149}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHandMiddle2
+      parentName: Terror:Terror:Terrorist_FreeChar_RightHandMiddle1
+      position: {x: 0.007034, y: -0.006594, z: 0.004278}
+      rotation: {x: 0.028166419, y: 0.030207373, z: 0.0835782, w: 0.995645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHandMiddle3
+      parentName: Terror:Terror:Terrorist_FreeChar_RightHandMiddle2
+      position: {x: 0.004445, y: -0.006097, z: 0.004113}
+      rotation: {x: -0.039483376, y: 0.0065777535, z: 0.054554205, w: 0.9977082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_RightHandMiddle4
+      parentName: Terror:Terror:Terrorist_FreeChar_RightHandMiddle3
+      position: {x: 0.002135, y: -0.004632, z: 0.0023029998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_Neck
+      parentName: Terror:Terror:Terrorist_FreeChar_Spine2
+      position: {x: -0, y: 0.033411, z: 0}
+      rotation: {x: -0.017271046, y: -0.08508454, z: 0.01502821, w: 0.9961107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Terror:Terror:Terrorist_FreeChar_Head
+      parentName: Terror:Terror:Terrorist_FreeChar_Neck
+      position: {x: -0, y: 0.035171, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
