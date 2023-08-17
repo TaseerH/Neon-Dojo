@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4706939876495061202}
   - component: {fileID: 328621789431213768}
   m_Layer: 1
-  m_Name: Hot Trail
+  m_Name: Hot Trail 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3928528860053484037}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0302, y: 0, z: 0}
+  m_LocalPosition: {x: 1713, y: -355.6, z: 610.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53,7 +53,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 476aff1c990deed408034e650422291d, type: 2}
+  - {fileID: 2100000, guid: 81f2c2c5d3ed2448e960203803b83291, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -74,7 +74,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.15
+  m_Time: 1.5
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
@@ -92,17 +92,17 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.50527704
-        value: 0.68131906
-        inSlope: -1.5157682
-        outSlope: -1.5157682
+        time: 0.5206579
+        value: 0.81275064
+        inSlope: -0.24835151
+        outSlope: -0.24835151
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.21715759
+        outWeight: 0.25111035
       - serializedVersion: 3
-        time: 0.98602295
-        value: 0.56571007
+        time: 1
+        value: 0.9657135
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -149,7 +149,7 @@ TrailRenderer:
     textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
-  m_MinVertexDistance: 5
+  m_MinVertexDistance: 0
   m_MaskInteraction: 0
   m_Autodestruct: 0
   m_Emitting: 1

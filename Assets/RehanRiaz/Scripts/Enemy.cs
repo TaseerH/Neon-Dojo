@@ -7,6 +7,9 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField]
+    private Gun Gun;
+
     public NavMeshAgent agent;
 
     public Transform player;
@@ -94,6 +97,11 @@ public class Enemy : MonoBehaviour
 
         transform.LookAt(player);
         enemyAnimator.SetTrigger("ShootNow");
+        
+
+        
+            Gun.Shoot();
+        
         /*  if (!alreadyAttacked)
           {
 
