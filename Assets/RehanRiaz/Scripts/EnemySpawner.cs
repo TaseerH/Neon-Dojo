@@ -16,31 +16,31 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     Vector3 GetRandomPosition()
     {
-        int randomCorner = Random.RandomRange(1, 5);
+        int randomCorner = Random.Range(1, 5);
         float _x, _y, _z;
         if (randomCorner==1)
         {
             _z = -70f;
             _y = -1.607807f;
-            _x = Random.RandomRange(-70f, 67f);
+            _x = Random.Range(-70f, 67f);
         }
         else if (randomCorner == 2)
         {
             _z = 66f;
             _y = -1.607807f;
-            _x = Random.RandomRange(-70f, 67f);
+            _x = Random.Range(-70f, 67f);
         }
         else if (randomCorner == 3)
         {
             _x = -70f;
             _y = -1.607807f;
-            _z = Random.RandomRange(-70f, 67f);
+            _z = Random.Range(-70f, 67f);
         }
         else
         {
             _x = 66f;
             _y = -1.607807f;
-            _z = Random.RandomRange(-70f, 67f);
+            _z = Random.Range(-70f, 67f);
         }
 
  
@@ -51,6 +51,6 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnNow()
     {
-        Instantiate(enemiesToSpawn[Random.RandomRange(0, 2)], GetRandomPosition(), Quaternion.identity);
+        Instantiate(enemiesToSpawn[Random.Range(0, 2)], GetRandomPosition(), Quaternion.identity);
     }
 }

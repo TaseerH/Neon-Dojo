@@ -90,7 +90,7 @@ public class Enemy : MonoBehaviour
 
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
-        Debug.Log("player in attack range.");
+        //Debug.Log("player in attack range.");
 
         transform.LookAt(player);
         enemyAnimator.SetTrigger("ShootNow");
