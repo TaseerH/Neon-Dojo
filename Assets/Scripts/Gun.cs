@@ -17,6 +17,7 @@ public class Gun : MonoBehaviour
     private float Speed = 100;
     [SerializeField]
     private LayerMask Mask;
+    //private LayerMask TowerMask;
     [SerializeField]
     private bool BouncingBullets;
     [SerializeField]
@@ -24,18 +25,18 @@ public class Gun : MonoBehaviour
 
     private float LastShootTime;
 
+    
 
     public void Shoot()
     {
         if (LastShootTime + ShootDelay < Time.time)
         {
-            // Use an object pool instead for these! To keep this tutorial focused, we'll skip implementing one.
-            // for more details you can see: https://youtu.be/fsDE_mO4RZM or if using Unity 2021+: https://youtu.be/zyzqA_CPz2E
 
             ShootingSystem.Play();
 
             Vector3 direction = transform.forward;
             TrailRenderer trail = Instantiate(BulletTrail, BulletSpawnPoint.position, Quaternion.identity);
+
 
             if (Physics.Raycast(BulletSpawnPoint.position, direction, out RaycastHit hit, float.MaxValue, Mask))
             {
@@ -52,6 +53,7 @@ public class Gun : MonoBehaviour
 
     private IEnumerator SpawnTrail(TrailRenderer Trail, Vector3 HitPoint, Vector3 HitNormal, float BounceDistance, bool MadeImpact)
     {
+
         Vector3 startPosition = Trail.transform.position;
         Vector3 direction = (HitPoint - Trail.transform.position).normalized;
 
@@ -78,6 +80,9 @@ public class Gun : MonoBehaviour
 
                 if (Physics.Raycast(HitPoint, bounceDirection, out RaycastHit hit, BounceDistance, Mask))
                 {
+
+                    
+
                     yield return StartCoroutine(SpawnTrail(
                         Trail,
                         hit.point,

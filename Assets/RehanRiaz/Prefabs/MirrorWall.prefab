@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 4687504973017543119}
   - component: {fileID: 4687504973017543118}
   - component: {fileID: -7687334878847081164}
+  - component: {fileID: 6877824805909460945}
   m_Layer: 10
-  m_Name: Mirror
-  m_TagString: Untagged
+  m_Name: MirrorWall
+  m_TagString: MirrorWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,3 +111,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a46b7bd337c583439917e0bdae3258c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6877824805909460945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4687504973017543113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd8ce66c16b548b593c77934520eefd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0

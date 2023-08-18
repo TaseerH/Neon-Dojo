@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewRotate : MonoBehaviour
 {
     private Touch touch;
-    private float rotationSpeed = 0.5f;
+    private float rotationSpeed = 0.2f;
     private float boxcastSize = 5f; // Adjust this value as per your requirement
     private float rotationDamping = 50f; // Adjust the damping effect as per your requirement
 
@@ -32,7 +32,7 @@ public class NewRotate : MonoBehaviour
         foreach (RaycastHit hit in hits)
         {
             // Check if the hit object is a wall (you can modify the condition based on your wall objects)
-            if (hit.transform.CompareTag("Wall"))
+            if (hit.transform.CompareTag("MetalWall") || hit.transform.CompareTag("MirrorWall"))
             {
                 RotateWall(hit.transform);
             }

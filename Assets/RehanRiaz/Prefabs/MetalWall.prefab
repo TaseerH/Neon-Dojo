@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2873303139848403000}
   - component: {fileID: 2873303139848403007}
   - component: {fileID: -5450679958302292310}
+  - component: {fileID: 842857028328594348}
   m_Layer: 10
-  m_Name: Metal wall
-  m_TagString: Untagged
+  m_Name: MetalWall
+  m_TagString: MetalWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,3 +111,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a46b7bd337c583439917e0bdae3258c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &842857028328594348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2873303139848403006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd8ce66c16b548b593c77934520eefd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
