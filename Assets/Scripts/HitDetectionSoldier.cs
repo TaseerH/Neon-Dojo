@@ -5,7 +5,7 @@ using UnityEngine;
 public class HitDetectionSoldier : MonoBehaviour
 {
     public HealthController tower;
-    public HealthController LaserShooter,BulletShooter;
+    public HealthController LaserShooter;
     public HealthControllerWall MirrorWall;
 
     private void Start()
@@ -23,38 +23,19 @@ public class HitDetectionSoldier : MonoBehaviour
             tower.TakeDamage(5);
             Destroy(this.gameObject, 0.01f);
         }
-        else if (collision.gameObject.CompareTag("LaserShooter"))
+        if (collision.gameObject.CompareTag("LaserShooter"))
         {
             Debug.Log("Collision with Laser Shooter");
             LaserShooter = collision.gameObject.GetComponent<HealthController>();
+            Debug.Log("Found Enemy Health Controller");
             LaserShooter.TakeDamage(100);
-            if (LaserShooter.currentHealth == 0)
-            {
-                Animator enemyAnimator;
-                enemyAnimator = GetComponent<Animator>();
-                enemyAnimator.SetTrigger("DieNow");
-            }
-            Destroy(this.gameObject, 2.01f);
+            Destroy(this.gameObject, 0.05f);
         }
-        else if (collision.gameObject.CompareTag("BulletShooter"))
-        {
-            Debug.Log("Collision with Laser Shooter");
-            BulletShooter = collision.gameObject.GetComponent<HealthController>();
-            LaserShooter.TakeDamage(100);
-            if (LaserShooter.currentHealth == 0)
-            {
-                Animator enemyAnimator;
-                enemyAnimator = GetComponent<Animator>();
-                enemyAnimator.SetTrigger("DieNow");
-            }
-            Destroy(this.gameObject, 2.01f);
-        }
-
-        else if (collision.gameObject.CompareTag("MirrorWall"))
+        if (collision.gameObject.CompareTag("MirrorWall"))
         {
             Debug.Log("Collision with MetalWall");
             MirrorWall = collision.gameObject.GetComponent<HealthControllerWall>();
-            MirrorWall.TakeDamage(50);
+            MirrorWall.TakeDamage(10);
             Destroy(this.gameObject, 0.01f);
         }
 
