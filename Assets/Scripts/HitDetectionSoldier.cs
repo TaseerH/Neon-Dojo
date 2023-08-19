@@ -5,7 +5,7 @@ using UnityEngine;
 public class HitDetectionSoldier : MonoBehaviour
 {
     public HealthController tower;
-    public HealthController LaserShooter;
+    public HealthController LaserShooter,BulletShooter;
     public HealthControllerWall MirrorWall;
 
     private void Start()
@@ -23,14 +23,34 @@ public class HitDetectionSoldier : MonoBehaviour
             tower.TakeDamage(5);
             Destroy(this.gameObject, 0.01f);
         }
-        if (collision.gameObject.CompareTag("LaserShooter"))
+        else if (collision.gameObject.CompareTag("LaserShooter"))
         {
             Debug.Log("Collision with Laser Shooter");
             LaserShooter = collision.gameObject.GetComponent<HealthController>();
             LaserShooter.TakeDamage(100);
-            Destroy(this.gameObject, 0.01f);
+            if (LaserShooter.currentHealth == 0)
+            {
+                Animator enemyAnimator;
+                enemyAnimator = GetComponent<Animator>();
+                enemyAnimator.SetTrigger("DieNow");
+            }
+            Destroy(this.gameObject, 2.01f);
         }
-        if (collision.gameObject.CompareTag("MirrorWall"))
+        else if (collision.gameObject.CompareTag("BulletShooter"))
+        {
+            Debug.Log("Collision with Laser Shooter");
+            BulletShooter = collision.gameObject.GetComponent<HealthController>();
+            LaserShooter.TakeDamage(100);
+            if (LaserShooter.currentHealth == 0)
+            {
+                Animator enemyAnimator;
+                enemyAnimator = GetComponent<Animator>();
+                enemyAnimator.SetTrigger("DieNow");
+            }
+            Destroy(this.gameObject, 2.01f);
+        }
+
+        else if (collision.gameObject.CompareTag("MirrorWall"))
         {
             Debug.Log("Collision with MetalWall");
             MirrorWall = collision.gameObject.GetComponent<HealthControllerWall>();

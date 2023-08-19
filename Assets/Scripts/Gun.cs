@@ -14,7 +14,7 @@ public class Gun : MonoBehaviour
     [SerializeField]
     private float ShootDelay = 0.1f;
     [SerializeField]
-    private float Speed = 100;
+    private float Speed = 50;
     [SerializeField]
     private LayerMask Mask;
     //private LayerMask TowerMask;

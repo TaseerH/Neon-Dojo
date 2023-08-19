@@ -7,7 +7,11 @@
       "dependencies": {}
     },
     "com.unity.burst": {
+<<<<<<< Updated upstream
       "version": "1.8.4",
+=======
+      "version": "1.7.3",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -41,17 +45,21 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.18",
-        "com.unity.ide.rider": "3.0.24",
+        "com.unity.ide.visualstudio": "2.0.16",
+        "com.unity.ide.rider": "3.0.16",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.performance.profile-analyzer": "1.2.2",
-        "com.unity.test-framework": "1.1.33",
-        "com.unity.testtools.codecoverage": "1.2.4"
+        "com.unity.performance.profile-analyzer": "1.1.1",
+        "com.unity.test-framework": "1.1.31",
+        "com.unity.testtools.codecoverage": "1.2.2"
       }
     },
     "com.unity.ide.rider": {
+<<<<<<< Updated upstream
       "version": "3.0.24",
+=======
+      "version": "3.0.20",
+>>>>>>> Stashed changes
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -92,7 +100,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
-      "version": "1.2.2",
+      "version": "1.1.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -108,7 +116,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
+<<<<<<< Updated upstream
       "version": "12.1.12",
+=======
+      "version": "12.1.8",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -118,14 +130,24 @@
       }
     },
     "com.unity.render-pipelines.universal": {
+<<<<<<< Updated upstream
       "version": "12.1.12",
+=======
+      "version": "12.1.8",
+>>>>>>> Stashed changes
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
+<<<<<<< Updated upstream
         "com.unity.burst": "1.8.4",
         "com.unity.render-pipelines.core": "12.1.12",
         "com.unity.shadergraph": "12.1.12"
+=======
+        "com.unity.burst": "1.7.3",
+        "com.unity.render-pipelines.core": "12.1.8",
+        "com.unity.shadergraph": "12.1.8"
+>>>>>>> Stashed changes
       }
     },
     "com.unity.searcher": {
@@ -143,16 +165,28 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
+<<<<<<< Updated upstream
       "version": "12.1.12",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "12.1.12",
+=======
+      "version": "12.1.8",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "12.1.8",
+>>>>>>> Stashed changes
         "com.unity.searcher": "4.9.1"
       }
     },
     "com.unity.test-framework": {
+<<<<<<< Updated upstream
       "version": "1.1.33",
+=======
+      "version": "1.1.31",
+>>>>>>> Stashed changes
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -163,7 +197,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.2.4",
+      "version": "1.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {

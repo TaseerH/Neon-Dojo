@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
         enemyAnimator = GetComponent<Animator>();
         player = GameObject.Find("Tower").transform;
         agent = GetComponent<NavMeshAgent>();
-        attackRange = Random.Range(30f, 60f);
+        attackRange = Random.Range(40f, 70f);
     }
     private void Update()
     {
@@ -90,7 +90,7 @@ public class Enemy : MonoBehaviour
     private void AttackPlayer()
     {
         if (isDead) return;
-
+        agent.speed = 0;
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
         //Debug.Log("player in attack range.");

@@ -6,6 +6,7 @@ public class EnemySpawner : MonoBehaviour
 {
     public int spawnAfterSec;
     public GameObject[] enemiesToSpawn;
+    private int enemyType = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +52,17 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnNow()
     {
-        Instantiate(enemiesToSpawn[Random.Range(0, 2)], GetRandomPosition(), Quaternion.identity);
+        Instantiate(enemiesToSpawn[enemyType], GetRandomPosition(), Quaternion.identity);
+        if (enemyType == 0)
+        {
+            enemyType = 1;
+        }
+        else
+        {
+            enemyType = 0; ;
+        }
+        
     }
+
+
 }
