@@ -1655,7 +1655,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1.6361496
+  m_Height: 2.45
   m_Direction: 1
   m_Center: {x: 0, y: 0.8108515, z: 0}
 --- !u!95 &1196821798543210923
@@ -1733,7 +1733,7 @@ MonoBehaviour:
   BulletTrail: {fileID: 328621789431213768, guid: 61e44ea43f65c4da89c44ff6345c7e97,
     type: 3}
   ShootDelay: 5
-  Speed: 100
+  Speed: 50
   Mask:
     serializedVersion: 2
     m_Bits: 3592

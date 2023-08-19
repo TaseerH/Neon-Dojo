@@ -27,14 +27,15 @@ public class HitDetectionSoldier : MonoBehaviour
         {
             Debug.Log("Collision with Laser Shooter");
             LaserShooter = collision.gameObject.GetComponent<HealthController>();
+            Debug.Log("Found Enemy Health Controller");
             LaserShooter.TakeDamage(100);
-            Destroy(this.gameObject, 0.01f);
+            Destroy(this.gameObject, 0.05f);
         }
         if (collision.gameObject.CompareTag("MirrorWall"))
         {
             Debug.Log("Collision with MetalWall");
             MirrorWall = collision.gameObject.GetComponent<HealthControllerWall>();
-            MirrorWall.TakeDamage(50);
+            MirrorWall.TakeDamage(10);
             Destroy(this.gameObject, 0.01f);
         }
 

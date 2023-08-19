@@ -27,14 +27,15 @@ public class HitDetectionCyborg : MonoBehaviour
         {
             Debug.Log("Collision with BulletShooter");
             BulletShooter = collision.gameObject.GetComponent<HealthController>();
+            Debug.Log("Found Enemy Health Controller");
             BulletShooter.TakeDamage(100);
-            Destroy(this.gameObject, 0.01f);
+            Destroy(this.gameObject, 0.05f);
         }
         if (collision.gameObject.CompareTag("MetalWall"))
         {
             Debug.Log("Collision with MetalWall");
             MetalWall = collision.gameObject.GetComponent<HealthControllerWall>();
-            MetalWall.TakeDamage(50);
+            MetalWall.TakeDamage(10);
             Destroy(this.gameObject, 0.01f);
         }
 
