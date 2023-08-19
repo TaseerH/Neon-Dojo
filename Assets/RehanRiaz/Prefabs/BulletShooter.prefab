@@ -1565,8 +1565,8 @@ Transform:
   m_GameObject: {fileID: 8582043305376418108}
   m_LocalRotation: {x: 0, y: -0.7610064, z: 0, w: 0.6487444}
   m_LocalPosition: {x: 38.59, y: -1.44, z: 0.2}
-  m_LocalScale: {x: 3, y: 3, z: 3}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 4.5, y: 4.5, z: 4.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 920430272051689203}
   - {fileID: 7598018157097598305}
@@ -1960,12 +1960,12 @@ PrefabInstance:
     - target: {fileID: 6547862573107374871, guid: da3801d04e3a447f8a162574c1a540f3,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6547862573107374871, guid: da3801d04e3a447f8a162574c1a540f3,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6547862573270691388, guid: da3801d04e3a447f8a162574c1a540f3,
         type: 3}
@@ -2076,6 +2076,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6547862573270691389, guid: da3801d04e3a447f8a162574c1a540f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da3801d04e3a447f8a162574c1a540f3, type: 3}

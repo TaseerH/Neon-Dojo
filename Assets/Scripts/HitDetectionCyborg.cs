@@ -20,7 +20,7 @@ public class HitDetectionCyborg : MonoBehaviour
         if (collision.gameObject.CompareTag("Tower"))
         {
             Debug.Log("Collision with tower");
-            tower.TakeDamage(5);
+            tower.TakeDamage(10);
             Destroy(this.gameObject, 0.01f);
         }
         if (collision.gameObject.CompareTag("BulletShooter"))
