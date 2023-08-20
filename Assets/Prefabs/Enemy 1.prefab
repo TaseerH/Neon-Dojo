@@ -132,6 +132,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   healthbar: {fileID: 2847165827877040209}
+  GameOver: {fileID: 0}
 --- !u!1001 &9033522031384241316
 PrefabInstance:
   m_ObjectHideFlags: 0

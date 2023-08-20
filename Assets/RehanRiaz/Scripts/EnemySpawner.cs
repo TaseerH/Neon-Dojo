@@ -23,25 +23,25 @@ public class EnemySpawner : MonoBehaviour
         {
             _z = -70f;
             _y = -1.607807f;
-            _x = Random.Range(-70f, 67f);
+            _x = Random.Range(-100f, 90f);
         }
         else if (randomCorner == 2)
         {
             _z = 66f;
             _y = -1.607807f;
-            _x = Random.Range(-70f, 67f);
+            _x = Random.Range(-100f, 90f);
         }
         else if (randomCorner == 3)
         {
             _x = -70f;
             _y = -1.607807f;
-            _z = Random.Range(-70f, 67f);
+            _z = Random.Range(-100f, 90f);
         }
         else
         {
             _x = 66f;
             _y = -1.607807f;
-            _z = Random.Range(-70f, 67f);
+            _z = Random.Range(-100f, 90f);
         }
 
  

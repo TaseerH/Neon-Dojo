@@ -1594,7 +1594,7 @@ Transform:
   m_GameObject: {fileID: 8572330694538310158}
   m_LocalRotation: {x: 0, y: -0.6970962, z: 0, w: 0.7169776}
   m_LocalPosition: {x: 38.63578, y: -1.6078072, z: -7.6821675}
-  m_LocalScale: {x: 4.5, y: 4.5, z: 4.5}
+  m_LocalScale: {x: 5.3, y: 5.3, z: 5.3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6068785751810653538}
@@ -1643,7 +1643,7 @@ CapsuleCollider:
   m_Center: {x: 0, y: 0.8108515, z: 0}
 --- !u!95 &1196821798543210923
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1660,7 +1660,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &-6390798157390158480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1736,6 +1737,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   healthbar: {fileID: 6068785752623318955}
+  GameOver: {fileID: 0}
 --- !u!1 &8635972230116342337
 GameObject:
   m_ObjectHideFlags: 0

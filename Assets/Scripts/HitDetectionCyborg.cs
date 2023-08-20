@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class HitDetectionCyborg : MonoBehaviour
 {
-    public HealthController tower;
+    public HealthControllerTower tower;
     public HealthController BulletShooter;
     public HealthControllerWall MetalWall;
 
     private void LateUpdate()
     {
-        tower = GameObject.Find("Tower").GetComponent<HealthController>();
+        tower = GameObject.Find("Tower").GetComponent<HealthControllerTower>();
         
         
     }

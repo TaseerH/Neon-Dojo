@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthController : MonoBehaviour
+public class HealthControllerTower : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
@@ -29,6 +29,8 @@ public class HealthController : MonoBehaviour
         healthbar.setHealth(currentHealth);
 
         if (currentHealth <= 0) {
+            GameOver.SetActive(true);
+            Time.timeScale = 0;
             GameObject.Destroy(gameObject, 0.5f);
         }
     }

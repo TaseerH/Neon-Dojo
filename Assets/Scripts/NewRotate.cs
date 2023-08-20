@@ -5,9 +5,9 @@ using UnityEngine;
 public class NewRotate : MonoBehaviour
 {
     private Touch touch;
-    private float rotationSpeed = 0.2f;
-    private float boxcastSize = 10f; // Adjust this value as per your requirement
-    private float rotationDamping = 70f; // Adjust the damping effect as per your requirement
+    private float rotationSpeed = 0.4f;
+    private float boxcastSize = 5f; // Adjust this value as per your requirement
+    private float rotationDamping = 50f; // Adjust the damping effect as per your requirement
 
     private void Update()
     {

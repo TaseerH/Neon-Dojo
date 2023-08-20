@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class HitDetectionSoldier : MonoBehaviour
 {
-    public HealthController tower;
+    public HealthControllerTower tower;
     public HealthController LaserShooter;
     public HealthControllerWall MirrorWall;
 
     private void Start()
     {
-        tower = GameObject.Find("Tower").GetComponent<HealthController>();
+        tower = GameObject.Find("Tower").GetComponent<HealthControllerTower>();
         
         
     }
