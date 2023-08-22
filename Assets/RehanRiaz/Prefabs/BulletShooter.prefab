@@ -1584,7 +1584,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 10
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 1000
@@ -1607,12 +1607,12 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2.45
+  m_Height: 2.102911
   m_Direction: 1
-  m_Center: {x: 0, y: 0.82427186, z: 0}
+  m_Center: {x: 0, y: 0.9978163, z: 0}
 --- !u!95 &-1055569706534051541
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1623,14 +1623,13 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 289e5aa5c5949904999e08a5de295888, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &-8127124659126507769
 MonoBehaviour:
   m_ObjectHideFlags: 0
