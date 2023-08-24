@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 4687504973017543118}
   - component: {fileID: -7687334878847081164}
   - component: {fileID: 6877824805909460945}
+  - component: {fileID: -2628045621449327801}
   m_Layer: 10
   m_Name: MirrorWall
-  m_TagString: MirrorWall
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 4687504973017543113}
   m_LocalRotation: {x: -0, y: 0.6814774, z: -0, w: 0.7318392}
   m_LocalPosition: {x: 25.9, y: 3.89, z: -0.5}
-  m_LocalScale: {x: 30, y: 15, z: 2}
+  m_LocalScale: {x: 45, y: 30, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -106,7 +107,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4687504973017543113}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a46b7bd337c583439917e0bdae3258c, type: 3}
   m_Name: 
@@ -125,3 +126,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+--- !u!114 &-2628045621449327801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4687504973017543113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d185e1bfc71304748be30595584d8166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActive: 0
