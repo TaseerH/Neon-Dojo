@@ -1690,6 +1690,10 @@ MonoBehaviour:
     m_Bits: 3592
   BouncingBullets: 1
   BounceDistance: 300
+  deflectionSound: {fileID: 0}
+  laserShootSound: {fileID: 0}
+  bulletShootSound: {fileID: 0}
+  isPinkEnemy: 0
 --- !u!114 &3236580311508276029
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -187,3 +187,5 @@ MonoBehaviour:
   tower: {fileID: 0}
   BulletShooter: {fileID: 0}
   MetalWall: {fileID: 0}
+  bulletShooterDieEffect: {fileID: 4285531804503874317, guid: 2e4b57f08c2b83447acc3fbec5c4c642,
+    type: 3}

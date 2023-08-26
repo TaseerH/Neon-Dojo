@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -2628045621449327801}
   m_Layer: 10
   m_Name: MirrorWall
-  m_TagString: Wall
+  m_TagString: MirrorWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,6 +126,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  isPinkWall: 1
+  destroyPinkWallEffect: {fileID: 1639858634986711526, guid: 54e2a74ab3f59fb4db98e6c283e38d3c,
+    type: 3}
+  destroyYellowWallEffect: {fileID: 3417443960076918166, guid: 09ef42e051971fa4c8e52a9ca622a9fc,
+    type: 3}
+  destroyPinkWallSound: {fileID: 0}
+  destroyYellowWallSound: {fileID: 0}
 --- !u!114 &-2628045621449327801
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -187,3 +187,6 @@ MonoBehaviour:
   tower: {fileID: 0}
   LaserShooter: {fileID: 0}
   MirrorWall: {fileID: 0}
+  laserShooterDieEffect: {fileID: 7687735387375123137, guid: e64630275007e08429b0d02faa151590,
+    type: 3}
+  laserShooterDieSound: {fileID: 0}

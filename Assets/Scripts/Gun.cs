@@ -25,12 +25,44 @@ public class Gun : MonoBehaviour
 
     private float LastShootTime;
 
-    
+    public AudioSource deflectionSound;
+    public AudioSource laserShootSound,bulletShootSound;
+    public bool isPinkEnemy;
+
+    void playShootSound()
+    {
+        if (isPinkEnemy)
+        {
+            laserShootSound.Play();
+
+        }
+        else
+        {
+            bulletShootSound.Play();
+        }
+    }
+
+    private void Start()
+    {
+        laserShootSound = GameObject.Find("LaserAudioSrc").GetComponent<AudioSource>();
+        bulletShootSound = GameObject.Find("BulletAudioSrc").GetComponent<AudioSource>();
+        deflectionSound = GameObject.Find("DeflectionAudioSrc").GetComponent<AudioSource>();
+    }
 
     public void Shoot()
     {
         if (LastShootTime + ShootDelay < Time.time)
         {
+
+            if(isPinkEnemy)
+            {
+                laserShootSound.Play();
+
+            }
+            else
+            {
+                bulletShootSound.Play();
+            }
 
             ShootingSystem.Play();
 
@@ -45,6 +77,7 @@ public class Gun : MonoBehaviour
             else
             {
                 StartCoroutine(SpawnTrail(trail, BulletSpawnPoint.position + direction * 100, Vector3.zero, BounceDistance, false));
+                deflectionSound.Play();
             }
 
             LastShootTime = Time.time;

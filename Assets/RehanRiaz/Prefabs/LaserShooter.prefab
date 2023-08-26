@@ -1638,9 +1638,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2.45
+  m_Height: 2.102911
   m_Direction: 1
-  m_Center: {x: 0, y: 0.8108515, z: 0}
+  m_Center: {x: 0, y: 0.9978163, z: 0}
 --- !u!95 &1196821798543210923
 Animator:
   serializedVersion: 4
@@ -1721,6 +1721,10 @@ MonoBehaviour:
     m_Bits: 3592
   BouncingBullets: 1
   BounceDistance: 300
+  deflectionSound: {fileID: 0}
+  laserShootSound: {fileID: 0}
+  bulletShootSound: {fileID: 0}
+  isPinkEnemy: 1
 --- !u!114 &2077299424416966202
 MonoBehaviour:
   m_ObjectHideFlags: 0
