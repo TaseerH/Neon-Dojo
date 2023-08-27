@@ -33,13 +33,12 @@ public class HitDetectionSoldier : MonoBehaviour
             laserShooterTransform = collision.gameObject.GetComponent<Transform>();
             Debug.Log("Found Enemy Health Controller");
             LaserShooter.TakeDamage(100);
-            Destroy(this.gameObject, 0.05f);
+            
             laserShooterDieSound.Play();
-            Instantiate(laserShooterDieEffect.gameObject, new Vector3(laserShooterTransform.position.x, 1, laserShooterTransform.position.z), laserShooterTransform.rotation);
-            //laserShooterDieEffect.Play();
-            Destroy(laserShooterDieEffect.gameObject);
+            
             Debug.Log("laser shooter dead");
-           // Destroy(laserShooterDieEffect.gameObject);
+            
+            Destroy(this.gameObject, 0.05f);
         }
         if (collision.gameObject.CompareTag("MirrorWall"))
         {

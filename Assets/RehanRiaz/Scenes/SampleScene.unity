@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17502943, g: 0.21896222, b: 0.30125836, a: 1}
+  m_IndirectSpecularColor: {r: 0.17493474, g: 0.21883847, b: 0.3010984, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2774,6 +2774,11 @@ PrefabInstance:
       propertyPath: GameOver
       value: 
       objectReference: {fileID: 1566446028}
+    - target: {fileID: 1934469518, guid: 5ec286b4ba36f2b4cb607099f357b0e5, type: 3}
+      propertyPath: towerDieEffect
+      value: 
+      objectReference: {fileID: 1639858634986711526, guid: 477f7b65620cf054087b4737c55a8f42,
+        type: 3}
     - target: {fileID: 46500040475684733, guid: 5ec286b4ba36f2b4cb607099f357b0e5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

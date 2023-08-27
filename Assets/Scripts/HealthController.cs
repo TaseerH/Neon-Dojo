@@ -6,7 +6,9 @@ public class HealthController : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-
+    public bool isPinkEnemy;
+    public ParticleSystem laserShooterDieEffect;
+    public ParticleSystem bulletShooterDieEffect;
     public HealthBar healthbar;
 
     public GameObject GameOver;
@@ -29,7 +31,22 @@ public class HealthController : MonoBehaviour
         healthbar.setHealth(currentHealth);
 
         if (currentHealth <= 0) {
-            GameObject.Destroy(gameObject, 0.5f);
+            
+            if(isPinkEnemy)
+            {
+                Instantiate(laserShooterDieEffect.gameObject, new Vector3(transform.position.x, 5, transform.position.z), transform.rotation);
+                laserShooterDieEffect.Play();
+                Debug.Log("Laser Shooter Dead");
+                //Destroy(laserShooterDieEffect.gameObject, 0.5f);
+            } else
+            {
+                Instantiate(bulletShooterDieEffect.gameObject, new Vector3(transform.position.x, 5, transform.position.z), transform.rotation);
+                bulletShooterDieEffect.Play();
+                Debug.Log("Bullet Shooter Dead");
+                //Destroy(bulletShooterDieEffect.gameObject, 0.5f);
+            }
+
+            GameObject.Destroy(gameObject, 0.1f);
         }
     }
 }

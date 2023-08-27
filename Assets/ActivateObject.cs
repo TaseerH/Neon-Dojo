@@ -18,7 +18,7 @@ public class ActivateObject : MonoBehaviour
             RaycastHit hit;
             if (Physics.BoxCast(ray.origin, Vector3.zero, boxCastDirection, out hit, Quaternion.identity, boxCastDistance))
             {
-                if (hit.transform.tag == "Wall")
+                if (hit.transform.tag == "MirrorWall" || hit.transform.tag == "MetalWall")
                 {
                     var objectScript = hit.collider.GetComponent<DragAndRotate>();
                     if (objectScript != null)

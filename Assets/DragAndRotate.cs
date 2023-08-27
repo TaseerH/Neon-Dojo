@@ -54,7 +54,7 @@ public class DragAndRotate : MonoBehaviour
         foreach (RaycastHit hit in hits)
         {
             // Check if the hit object is a wall (you can modify the condition based on your wall objects)
-            if (hit.transform.CompareTag("Wall"))
+            if (hit.transform.CompareTag("MirrorWall") || hit.transform.CompareTag("MetalWall"))
             {
                 Debug.Log("Wall hit!");
 

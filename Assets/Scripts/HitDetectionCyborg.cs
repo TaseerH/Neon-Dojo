@@ -34,13 +34,12 @@ public class HitDetectionCyborg : MonoBehaviour
             bulletShooterTransform = collision.gameObject.GetComponent<Transform>();
             Debug.Log("Found Enemy Health Controller");
             BulletShooter.TakeDamage(100);
-            Destroy(this.gameObject, 0.05f);
+            
             bulletShooterDieSound.Play();
-            Instantiate(bulletShooterDieEffect.gameObject, new Vector3(bulletShooterTransform.position.x,1, bulletShooterTransform.position.z), bulletShooterTransform.rotation);
-            //bulletShooterDieEffect.Play();
-            Destroy(bulletShooterDieEffect.gameObject);
+            
             Debug.Log("bullet shooter dead");
-           // Destroy(bulletShooterDieEffect.gameObject);
+            //Destroy(bulletShooterDieEffect.gameObject);
+            Destroy(this.gameObject, 0.05f);
         }
         if (collision.gameObject.CompareTag("MetalWall"))
         {
