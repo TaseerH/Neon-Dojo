@@ -34,9 +34,12 @@ public class HealthControllerTower : MonoBehaviour
             
             Instantiate(towerDieEffect.gameObject, new Vector3(transform.position.x, 15, transform.position.z), transform.rotation);
             towerDieEffect.Play();
+            this.gameObject.SetActive(false);
+
             Debug.Log("Tower Dead");
-            StartCoroutine(WaitCoroutine(0.5f));
-            
+            StartCoroutine(WaitCoroutine(2f));
+            GameOver.SetActive(true);
+
 
         }
     }
@@ -46,7 +49,7 @@ public class HealthControllerTower : MonoBehaviour
         Debug.Log("Inside coroutine");
         yield return new WaitForSeconds(time);
         Debug.Log("After coroutine finish");
-        GameOver.SetActive(true);
+       // GameOver.SetActive(true);
         Time.timeScale = 0;
     }
 

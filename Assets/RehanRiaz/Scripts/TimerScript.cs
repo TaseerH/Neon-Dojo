@@ -14,7 +14,10 @@ public class TimerScript : MonoBehaviour
     void Start()
     {
         timeRunning = true;
-        PlayerPrefs.SetFloat("highscore", 0);
+        // PlayerPrefs.SetFloat("highscore", 0);
+        float hsminutes = Mathf.FloorToInt(PlayerPrefs.GetFloat("highscore", 0) / 60);
+        float hsseconds = Mathf.FloorToInt(PlayerPrefs.GetFloat("highscore", 0) % 60);
+        highScoreText.text = string.Format("{0:00} : {1:00}", hsminutes, hsseconds);
     }
 
     // Update is called once per frame
@@ -38,14 +41,17 @@ public class TimerScript : MonoBehaviour
         timeText.text = string.Format("{0:00} : {1:00}", minutes,seconds);
         if (highScoreReached)
         {
+
             highScoreText.text = string.Format("{0:00} : {1:00}", minutes, seconds);
         }
 
     }
 
+    
+
     void updateHighScore()
     {
-        if (timeRemaining > PlayerPrefs.GetFloat("highscore"))
+        if (timeRemaining > PlayerPrefs.GetFloat("highscore",0))
         {
             PlayerPrefs.SetFloat("highscore", timeRemaining);
             highScoreReached = true;
